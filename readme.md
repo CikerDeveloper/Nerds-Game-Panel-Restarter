@@ -1,4 +1,4 @@
-KGB Game Panel restarter
+Nerds Hosting Game Panel restarter
 ========================
 
 Da li vam se nekada desilo da vam server padnezbog loseg plugina ili mape, a da vi niste u
@@ -11,7 +11,7 @@ bez ikakvog pristupa u game panelu!
 Instalacija
 -----------
  * Uploadujte komplet skriptu u neki folder na vasem webhostingu, na primer u folder "restarter"
- * Ulogujte se na KGB Game Panel, otvorite tab Profil i tu generisite novi API Token
+ * Ulogujte se na Nerds Hosting Game Panel, otvorite tab Profil i tu generisite novi API Token
  * Na vasem web nalogu gde ste uploadovali ovu skriptu, otvorite config.php i tu unesite token
  * U browseru otvorite www.vas-sajt.com/restarter i imacete spisak svih vasih servera, zajedno sa opcijama za restartovanje ukoliko su serveri offline
 	
@@ -25,10 +25,10 @@ Problemi
 
 Prednosti u odnosu na prethodnu verziju
 ---------------------------------------
- * GT.rs status se ucitava asinhrono (AJAX-om), tako da je ucitavanje stranice mnogo brze od prethodne verzije,
- gde se stranica prikazivala tek posto se pokupe podaci i sa gpanela i sa GT.rs-a
+ * GT.xyz status se ucitava asinhrono (AJAX-om), tako da je ucitavanje stranice mnogo brze od prethodne verzije,
+ gde se stranica prikazivala tek posto se pokupe podaci i sa gpanela i sa GT.xyz-a
  * Restartovanje servera je asinhrono (AJAX-om), tako da se posle restarta ne refreshuje komplet stranica,
  vec samo taj server, i odmah vidite po statusu da li je restart servera bio uspesan ili ne
  * Pregledniji, stabilniji i kvalitetniji kod
- * Serveri koji nisu dodati na GT.rs se automatski uklanjaju sa liste, zbog preglednosti
+ * Serveri koji nisu dodati na GT.xyz se automatski uklanjaju sa liste, zbog preglednosti
  
