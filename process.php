@@ -20,13 +20,9 @@ if ($_POST['task']=="status") {
 
 } else if ($_POST['task']=="restartServer") {
 	$serverid = (int)$_POST['serverid'];
-	$temp = (int)$_POST['auth'];
 	$token = $config['tokens'][$temp];
 	$server = $restarter->skenirajServer($serverid);
 
-	if (!$server || in_array($serverid, $config['ignorisi'])) {
-		$return['msg'] = "No server";
-	} else {
 		if ($server=="Online") {
 			$return['msg'] = "Server online";
 		} else {
