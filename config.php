@@ -23,6 +23,7 @@ $config['ignorisi'] = array();
 $config['feedVrsta'] = 2;
 
 // link ka Gpanel i GTXYZ API-ju (ne menjati ako ne znate za sta sluzi !)
-$config['apilink'] = "http://nerds-hosting.com/api";
+$config['apilink'] = "http://nerds-hosting.com/";
+//šta će ovo sranje ovde
 $config['gtapilink'] = "http://www.gametracker.xyz/autorestart";
 ?>
