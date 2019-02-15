@@ -8,11 +8,9 @@ $config['tokens'] = array("1a2s3d1a2s3d1a2s3d1a2s3d1a2s3d1a2s3d1a2s3d1a2s3d");
 // Preporuceno je da stavite broj izmedju 3 i 5
 $config['broj_skeniranja'] = 3;
 
-// Ignorisanje servera
-// U ovaj niz stavljate ID od Servera koji mozete videti u game panelu.
-// Server koji se nalazi u ovoj listi nece biti prikazan u listi.
-// Primer: 	array('25140', '26254', '28141')
-$config['ignorisi'] = array();
+//id servera za koje zelite da ukljucite NGPR
+//primer array('123','32','11','11')
+$config['serverid'] = array('123')
 
 // link ka GPanel API-ju (ne menjati ako ne znate za sta sluzi !)
 $config['apilink'] = "http://nerds-hosting.com/";
