@@ -7,9 +7,15 @@ if ($_POST['task']=="status") {
 
 	if($server=="Offline")
 	{
-		return "Offline";
+	$new_row["status"] = "Offline";
+        $row_set[] = $new_row;
+	$return = json_encode(row_set, JSON_PRETTY_PRINT);
+    	echo $return; 
 	} else {
-		return "Online";
+	$new_row["status"] = "Online";
+        $row_set[] = $new_row;
+	$return = json_encode(row_set, JSON_PRETTY_PRINT);
+    	echo $return; 
 	}
 
 } else if ($_POST['task']=="restartServer") {
